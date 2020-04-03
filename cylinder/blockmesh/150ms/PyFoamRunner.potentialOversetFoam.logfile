@@ -1,0 +1,65 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build  : 4.1-76ec96ae2dcb
+Exec   : potentialOversetFoam
+Date   : Apr 03 2020
+Time   : 11:52:09
+Host   : "aoba"
+PID    : 8746
+CtrlDict : "/home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms/system/controlDict"
+Case   : /home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: convergence criteria
+    field p	 tolerance 1e-05
+    field U	 tolerance 1e-05
+
+Creating oversetMesh
+Selecting overset fringe type overlap
+Selecting overset fringe type faceCells
+Found 1 active overset interpolation schemes.
+
+Selecting overset interpolation type injection
+Updating iteration for overset region: volume
+Region internal: 150 triangles in hole cutting
+Region volume: 0 triangles in hole cutting
+Overlap fringe iteration: 1 for region: volume
+Cumulative suitable pairs: 32, total number of pairs: 32 (100%)
+Converted 0 acceptors to holes.
+Finished assembling overlap fringe.
+Updating iteration for overset region: internal
+Number of acceptor cells: 107
+Number of donor cells: 107
+Number of hole cells: 80
+Checking donor-acceptor assembly
+Reading field p
+
+Reading field U
+
+
+Calculating potential flow
+Initial flux contour continuity error = 2.9282132e-15
+In manipulateMatrix: true bou: 123 int: 0
+amgSolver:  Solving for p, Initial residual = 1, Final residual = 9.2173522e-08, No Iterations 45
+p min -12.110514 max 16.580573 masked min -12.110514 max 16.580573
+continuity error = 8.9914887e-07
+Contour continuity error = 7.9279117e-08
+Interpolated U error = 0.002148856
+Masked mag(U): max: 284.93699 min: 0
+ExecutionTime = 0.41 s  ClockTime = 1 s
+
+End
+

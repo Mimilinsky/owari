@@ -1,0 +1,89 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "0.01/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+9
+(
+    oversetFaces
+    {
+        type            overset;
+        nFaces          0;
+        startFace       8438;
+    }
+
+    back
+    {
+        type            empty;
+        nFaces          4393;
+        startFace       8438;
+    }
+    out
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          49;
+        startFace       12831;
+    }
+    bottom
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          49;
+        startFace       12880;
+    }
+    in
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          49;
+        startFace       12929;
+    }
+    top
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          49;
+        startFace       12978;
+    }
+    front
+    {
+        type            empty;
+        nFaces          4393;
+        startFace       13027;
+    }
+    wall
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          102;
+        startFace       17420;
+    }
+    cylinder
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          156;
+        startFace       17522;
+    }
+    /*defaultFaces
+    {
+        type            patch;
+        nFaces          1;
+        startFace       17678;
+    }*/
+)
+
+// ************************************************************************* //

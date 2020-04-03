@@ -1,0 +1,126 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : checkMesh
+Date   : Mar 29 2020
+Time   : 00:32:45
+Host   : aoba
+PID    : 17974
+I/O    : uncollated
+Case   : /home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function void* Foam::dlOpen(const Foam::fileName&, bool)
+    in file POSIX.C at line 1697
+    dlopen error : libfoam.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From function bool Foam::dlLibraryTable::open(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 113
+    could not load "libfoam.so"
+--> FOAM Warning : 
+    From function void* Foam::dlOpen(const Foam::fileName&, bool)
+    in file POSIX.C at line 1697
+    dlopen error : liboversetMesh.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From function bool Foam::dlLibraryTable::open(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 113
+    could not load "liboversetMesh.so"
+--> FOAM Warning : 
+    From function void* Foam::dlOpen(const Foam::fileName&, bool)
+    in file POSIX.C at line 1697
+    dlopen error : liblduSolvers.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From function bool Foam::dlLibraryTable::open(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 113
+    could not load "liblduSolvers.so"
+Create mesh for time = 0
+
+Time = 0
+
+Mesh stats
+    points:           9002
+    internal points:  0
+    faces:            17679
+    internal faces:   8438
+    cells:            4393
+    faces per cell:   5.94514
+    boundary patches: 10
+    point zones:      0
+    face zones:       0
+    cell zones:       2
+
+Overall number of cells of each type:
+    hexahedra:     4152
+    prisms:        241
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+   *Number of regions: 2
+    The mesh has multiple regions which are not connected by any face.
+  <<Writing region information to "0/cellToRegion"
+  <<Writing region 0 with 2401 cells to cellSet region0
+  <<Writing region 1 with 1992 cells to cellSet region1
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    oversetFaces        0        0        ok (empty)                        
+    back                4393     4501     ok (non-closed singly connected)  
+    out                 49       100      ok (non-closed singly connected)  
+    bottom              49       100      ok (non-closed singly connected)  
+    in                  49       100      ok (non-closed singly connected)  
+    top                 49       100      ok (non-closed singly connected)  
+    front               4393     4501     ok (non-closed singly connected)  
+    wall                102      206      ok (non-closed singly connected)  
+    cylinder            156      312      ok (non-closed singly connected)  
+    defaultFaces        1        4        ok (non-closed singly connected)  
+
+Checking faceZone topology for multiply connected surfaces...
+    No faceZones found.
+
+Checking basic cellZone addressing...
+    CellZone            Cells        Points       Volume       BoundingBox
+    volume              2401         5000         0.6          (-1 -1 0) (2 1 0.1)
+    internal            1992         4002         0.044755422  (-0.2026231 -0.30635977 0) (1.1333686 0.20423864 0.1)
+
+Checking geometry...
+    Overall domain bounding box (-1 -1 0) (2 1 0.1)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+    Boundary openness (-2.2573073e-20 3.7593573e-18 2.6359532e-15) OK.
+    Max cell openness = 2.5571945e-16 OK.
+    Max aspect ratio = 3.9835708 OK.
+    Minimum face area = 5.2515162e-06. Maximum face area = 0.0079725314.  Face area magnitudes OK.
+    Min volume = 5.2515162e-07. Max volume = 0.00024989606.  Total volume = 0.64475542.  Cell volumes OK.
+    Mesh non-orthogonality Max: 33.476278 average: 3.8041681
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 1.3797544 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+End
+

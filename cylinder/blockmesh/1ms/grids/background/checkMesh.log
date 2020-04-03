@@ -1,0 +1,92 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  | For copyright notice see file Copyright         |
+\*---------------------------------------------------------------------------*/
+Build  : 4.1-76ec96ae2dcb
+Exec   : checkMesh
+Date   : Mar 23 2020
+Time   : 21:45:45
+Host   : "aoba"
+PID    : 16239
+CtrlDict : "/home/mimi/foam/mimi-4.1/run/cylinder-blockmesh/grids/background/system/controlDict"
+Case   : /home/mimi/foam/mimi-4.1/run/cylinder-blockmesh/grids/background
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0.01
+
+Time = 0.01
+
+Mesh stats
+    all points:           32900
+    live points:          32900
+    all faces:            64827
+    live faces:           64827
+    internal faces:       31929
+    cells:                16126
+    boundary patches:     9
+    point zones:          0
+    face zones:           0
+    cell zones:           1
+
+Overall number of cells of each type:
+    hexahedra:     16126
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+   *Number of regions: 2
+    The mesh has multiple regions which are not connected by any face.
+  <<Writing region information to "0.01/cellToRegion"
+Nuumber of cells per region: 
+	0	15376
+	1	750
+
+
+Checking patch topology for multiply connected surfaces ...
+    Patch               Faces    Points   Area [m^2]  Surface topology                  
+    back                15376    15625    6           ok (non-closed singly connected)  
+    out                 124      250      0.04        ok (non-closed singly connected)  
+    bottom              124      250      0.06        ok (non-closed singly connected)  
+    in                  124      250      0.04        ok (non-closed singly connected)  
+    top                 124      250      0.06        ok (non-closed singly connected)  
+    front               15376    15625    6           ok (non-closed singly connected)  
+    sides               1500     1650     0.29872999  ok (non-closed singly connected)  
+    originalPatch       75       150      0.012562697 ok (non-closed singly connected)  
+    otherSide           75       150      0.030150475 ok (non-closed singly connected)  
+
+Checking geometry...
+    This is a 3-D mesh
+    Overall domain bounding box (-1 -1 0) (2 1 0.02)
+    Mesh (non-empty, non-wedge) directions (1 1 1)
+    Mesh (non-empty) directions (1 1 1)
+    Mesh (non-empty, non-wedge) dimensions 3
+    Boundary openness (-1.9018902e-19 6.9265004e-18 -1.236635e-15) Threshold = 1e-06 OK.
+    Max cell openness = 2.2476017e-16 OK.
+    Max aspect ratio = 2.7365845 OK.
+    Minumum face area = 0.00011382408. Maximum face area = 0.000483872.  Face area magnitudes OK.
+    Min volume = 2.2764817e-06. Max volume = 7.8043908e-06.  Total volume = 0.1229873.  Cell volumes OK.
+    Mesh non-orthogonality Max: 0.0038840007 average: 0.00013181889 Threshold = 70
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.042481879 OK.
+
+Mesh OK.
+
+End
+
