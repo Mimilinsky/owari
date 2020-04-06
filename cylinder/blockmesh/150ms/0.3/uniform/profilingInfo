@@ -23,7 +23,7 @@ profilingInfo
         parentId        11;
         description     "Foam::Time::writeObject - outputTime";
         calls           3;
-        totalTime       0.242266;
+        totalTime       0.195311;
         childTime       0;
         onStack         1;
     }
@@ -33,8 +33,8 @@ profilingInfo
         parentId        1;
         description     "Foam::Time::writeObject";
         calls           600;
-        totalTime       0.24421;
-        childTime       0.242266;
+        totalTime       0.196655;
+        childTime       0.195311;
         onStack         1;
     }
 
@@ -42,8 +42,8 @@ profilingInfo
         id              1;
         description     "application::main";
         calls           1;
-        totalTime       78.795964;
-        childTime       69.948763;
+        totalTime       70.501968;
+        childTime       63.218459;
         onStack         1;
     }
 
@@ -52,7 +52,7 @@ profilingInfo
         parentId        1;
         description     "FO::forces::execute";
         calls           599;
-        totalTime       0.959096;
+        totalTime       1.296214;
         childTime       0;
         onStack         0;
     }
@@ -62,7 +62,7 @@ profilingInfo
         parentId        1;
         description     "FO::probes::execute";
         calls           599;
-        totalTime       0.032536;
+        totalTime       0.024767;
         childTime       0;
         onStack         0;
     }
@@ -72,7 +72,7 @@ profilingInfo
         parentId        1;
         description     "functionObjectList::read";
         calls           1;
-        totalTime       0.002579;
+        totalTime       0.038525;
         childTime       0;
         onStack         0;
     }
@@ -82,8 +82,8 @@ profilingInfo
         parentId        1;
         description     "fvMatrix::solve_U";
         calls           600;
-        totalTime       12.482978;
-        childTime       12.04769;
+        totalTime       11.115274;
+        childTime       10.707301;
         onStack         0;
     }
 
@@ -92,8 +92,8 @@ profilingInfo
         parentId        1;
         description     "fvMatrix::solve_p";
         calls           2400;
-        totalTime       56.227364;
-        childTime       55.739911;
+        totalTime       50.547024;
+        childTime       50.107271;
         onStack         0;
     }
 
@@ -102,7 +102,7 @@ profilingInfo
         parentId        4;
         description     "lduMatrix::smoother_Ux";
         calls           600;
-        totalTime       5.441999;
+        totalTime       4.907518;
         childTime       0;
         onStack         0;
     }
@@ -112,7 +112,7 @@ profilingInfo
         parentId        6;
         description     "lduMatrix::smoother_Uy";
         calls           600;
-        totalTime       6.029194;
+        totalTime       5.32009;
         childTime       0;
         onStack         0;
     }
@@ -122,8 +122,8 @@ profilingInfo
         parentId        3;
         description     "lduMatrix::solver_Ux";
         calls           600;
-        totalTime       5.724599;
-        childTime       5.441999;
+        totalTime       5.146436;
+        childTime       4.907518;
         onStack         0;
     }
 
@@ -132,8 +132,8 @@ profilingInfo
         parentId        3;
         description     "lduMatrix::solver_Uy";
         calls           600;
-        totalTime       6.323091;
-        childTime       6.029194;
+        totalTime       5.560865;
+        childTime       5.32009;
         onStack         0;
     }
 
@@ -142,8 +142,8 @@ profilingInfo
         parentId        8;
         description     "lduMatrix::solver_p";
         calls           2400;
-        totalTime       55.739911;
-        childTime       2.691659;
+        totalTime       50.107271;
+        childTime       2.614906;
         onStack         0;
     }
 
@@ -152,7 +152,7 @@ profilingInfo
         parentId        9;
         description     "lduMatrix::solver_topLevelCorr";
         calls           34036;
-        totalTime       2.691659;
+        totalTime       2.614906;
         childTime       0;
         onStack         0;
     }

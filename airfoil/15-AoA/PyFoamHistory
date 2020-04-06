@@ -14,3 +14,9 @@ Thu Apr  2 13:44:03 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOv
 Thu Apr  2 13:44:18 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate  |  Ending 
 Thu Apr  2 13:46:16 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate  |  Starting 
 Thu Apr  2 13:47:40 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate  |  Ending 
+Mon Apr  6 03:38:59 2020 by mimi in aoba :Application: pyFoamPotentialRunner.py .  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Starting 
+Mon Apr  6 03:39:00 2020 by mimi in aoba :Application: pyFoamPotentialRunner.py .  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Ending 
+Mon Apr  6 03:39:51 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Starting 
+Mon Apr  6 03:39:51 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Ending 
+Mon Apr  6 03:41:13 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Starting 
+Mon Apr  6 03:42:52 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA  |  Ending 

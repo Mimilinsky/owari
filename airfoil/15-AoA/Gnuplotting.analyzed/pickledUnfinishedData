@@ -4,10 +4,10 @@ p2
 I01
 sS'stepNr'
 p3
-I4000
+I6000
 sS'casefullname'
 p4
-S'/home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate'
+S'/home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA'
 p5
 sS'fatalError'
 p6
@@ -20,7 +20,7 @@ p8
 I00
 sS'endtime'
 p9
-S'Thu Apr  2 13:47:39 2020'
+S'Mon Apr  6 03:42:52 2020'
 p10
 sS'commandLine'
 p11
@@ -38,14 +38,14 @@ p16
 I00
 sS'lasttimesteptime'
 p17
-S'Thu Apr  2 13:47:39 2020'
+S'Mon Apr  6 03:42:52 2020'
 p18
 sS'cpuUserTime'
 p19
-F81.618132000000003
+F95.323339000000004
 sS'cpuSystemTime'
 p20
-F0.56417399999999995
+F1.3798979999999998
 sS'analyzed'
 p21
 (dp22
@@ -54,7 +54,7 @@ p23
 (dp24
 S'cpu'
 p25
-F0.019999999999996021
+F0.0099999999999909051
 sS'clock'
 p26
 F0
@@ -63,27 +63,27 @@ p27
 (dp28
 S'p_final'
 p29
-F9.6209429999999996e-08
+F4.9213167000000002e-08
 sS'Ux_iterations'
 p30
 F1
 sS'Uy'
 p31
-F9.7308492999999995e-09
+F1.5682625999999999e-08
 sS'Ux'
 p32
-F6.3776796999999997e-09
+F7.7368400000000003e-09
 sS'p_iterations'
 p33
-F0
+F2
 sS'p'
-F9.3114921000000002e-08
+F2.1688209999999999e-07
 sS'Ux_final'
 p34
-F3.2024680999999998e-09
+F3.9897066999999996e-09
 sS'Uy_final'
 p35
-F4.9808315000000001e-09
+F8.1015569999999998e-09
 sS'Uy_iterations'
 p36
 F1
@@ -91,7 +91,7 @@ ssS'Iterations'
 p37
 (dp38
 S'p'
-F0
+F2
 sS'Uy'
 p39
 F1
@@ -103,13 +103,13 @@ p41
 (dp42
 S'max'
 p43
-F24.639354000000001
+F24.639353
 sS'mean'
 p44
 F0.84697478000000004
 sssS'logfile'
 p45
-S'./PyFoamRunner.icoOversetFoam.logfile.restart00'
+S'./PyFoamRunner.icoOversetFoam.logfile'
 p46
 sS'remark'
 p47
@@ -120,31 +120,31 @@ p49
 I01
 sS'casename'
 p50
-S'aerofoil-gmsh-overset-rotate'
+S'15-AoA'
 p51
 sS'solver'
 p52
 g12
 sS'lines'
 p53
-I96060
+I144060
 sS'interrupted'
 p54
 I00
 sS'cpuTime'
 p55
-F82.182305999999997
+F96.703237000000001
 sS'usedMemory'
 p56
-F0.72265625
+F0.85546875
 sS'starttime'
 p57
-S'Thu Apr  2 13:46:16 2020'
+S'Mon Apr  6 03:41:13 2020'
 p58
 sS'time'
 p59
 F3
 sS'wallTime'
 p60
-F83.40053391456604
+F98.749209880828857
 s.

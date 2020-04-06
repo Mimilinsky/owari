@@ -4,10 +4,10 @@ p2
 I00
 sS'stepNr'
 p3
-I1931
+I2142
 sS'casefullname'
 p4
-S'/home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms'
+S'/home/mimi/foam/mimi-4.1/run/owari/cylinder/blockmesh/150ms'
 p5
 sS'fatalError'
 p6
@@ -20,7 +20,7 @@ p8
 I00
 sS'endtime'
 p9
-S'Fri Apr  3 11:57:09 2020'
+S'Sun Apr  5 18:31:33 2020'
 p10
 sS'commandLine'
 p11
@@ -38,7 +38,7 @@ p16
 I01
 sS'lasttimesteptime'
 p17
-S'Fri Apr  3 11:57:09 2020'
+S'Sun Apr  5 18:31:33 2020'
 p18
 sS'cpuUserTime'
 p19
@@ -54,36 +54,36 @@ p23
 (dp24
 S'cpu'
 p25
-F0.16000000000002501
+F0.13999999999998636
 sS'clock'
 p26
-F1
+F0
 ssS'Linear'
 p27
 (dp28
 S'p_final'
 p29
-F6.8530232e-08
+F7.2422093999999995e-08
 sS'Ux_iterations'
 p30
 F42
 sS'Uy'
 p31
-F0.051105746000000001
+F0.051087655000000003
 sS'Ux'
 p32
-F0.027308187000000001
+F0.027452262000000002
 sS'p_iterations'
 p33
-F88
+F87
 sS'p'
-F0.10080211
+F0.10354105
 sS'Ux_final'
 p34
-F8.9433712999999997e-08
+F9.3996759000000004e-08
 sS'Uy_final'
 p35
-F7.4212431000000005e-08
+F7.7207509999999995e-08
 sS'Uy_iterations'
 p36
 F47
@@ -91,7 +91,7 @@ ssS'Iterations'
 p37
 (dp38
 S'p'
-F88
+F87
 sS'Uy'
 p39
 F47
@@ -103,10 +103,10 @@ p41
 (dp42
 S'max'
 p43
-F13.771174999999999
+F13.762492999999999
 sS'mean'
 p44
-F1.362225
+F1.3624485
 sssS'logfile'
 p45
 S'./PyFoamRunner.icoOversetFoam.logfile'
@@ -120,14 +120,14 @@ p49
 I01
 sS'casename'
 p50
-S'cylinder-blockmesh-tut-merge-150ms'
+S'150ms'
 p51
 sS'solver'
 p52
 g12
 sS'lines'
 p53
-I46391
+I51455
 sS'interrupted'
 p54
 I00
@@ -136,15 +136,15 @@ p55
 F0
 sS'usedMemory'
 p56
-F0.72265625
+F0.796875
 sS'starttime'
 p57
-S'Fri Apr  3 11:52:30 2020'
+S'Sun Apr  5 18:26:17 2020'
 p58
 sS'time'
 p59
-F0.96550000000000002
+F1.071
 sS'wallTime'
 p60
-F278.83190703392029
+F316.4031879901886
 s.

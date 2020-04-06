@@ -74,3 +74,7 @@ Fri Apr  3 11:52:09 2020 by mimi in aoba :Application: pyFoamPlotRunner.py poten
 Fri Apr  3 11:52:10 2020 by mimi in aoba :Application: pyFoamPlotRunner.py potentialOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms  |  Ending 
 Fri Apr  3 11:52:30 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms  |  Starting 
 Fri Apr  3 11:57:09 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-blockmesh-tut-merge-150ms  |  Ending 
+Sun Apr  5 18:23:33 2020 by mimi in aoba :Application: pyFoamPlotRunner.py PyFoamPlotRunner.icoOversetFoam.logfile  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/blockmesh/150ms  |  Starting 
+Sun Apr  5 18:23:33 2020 by mimi in aoba :Application: pyFoamPlotRunner.py PyFoamPlotRunner.icoOversetFoam.logfile  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/blockmesh/150ms  |  Ending 
+Sun Apr  5 18:26:17 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/blockmesh/150ms  |  Starting 
+Sun Apr  5 18:31:33 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/blockmesh/150ms  |  Ending 

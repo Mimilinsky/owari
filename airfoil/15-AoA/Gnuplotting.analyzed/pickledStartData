@@ -9,7 +9,7 @@ S'No remark given'
 p5
 sS'casename'
 p6
-S'aerofoil-gmsh-overset-rotate'
+S'15-AoA'
 p7
 sS'solver'
 p8
@@ -26,14 +26,14 @@ p12
 I0
 sS'casefullname'
 p13
-S'/home/mimi/foam/mimi-4.1/run/aerofoil-gmsh-overset-rotate'
+S'/home/mimi/foam/mimi-4.1/run/owari/airfoil/15-AoA'
 p14
 sS'starttime'
 p15
-S'Thu Apr  2 13:46:16 2020'
+S'Mon Apr  6 03:41:13 2020'
 p16
 sS'logfile'
 p17
-S'./PyFoamRunner.icoOversetFoam.logfile.restart00'
+S'./PyFoamRunner.icoOversetFoam.logfile'
 p18
 s.
