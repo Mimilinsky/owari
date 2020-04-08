@@ -19,11 +19,11 @@ profilingInfo
 (
 
     {
-        id              14;
+        id              16;
         parentId        11;
         description     "Foam::Time::writeObject - outputTime";
         calls           5;
-        totalTime       0.421513;
+        totalTime       0.630258;
         childTime       0;
         onStack         1;
     }
@@ -32,9 +32,9 @@ profilingInfo
         id              11;
         parentId        1;
         description     "Foam::Time::writeObject";
-        calls           5000;
-        totalTime       0.436163;
-        childTime       0.421513;
+        calls           500;
+        totalTime       0.631442;
+        childTime       0.630258;
         onStack         1;
     }
 
@@ -42,27 +42,47 @@ profilingInfo
         id              1;
         description     "application::main";
         calls           1;
-        totalTime       890.19418;
-        childTime       815.88772;
+        totalTime       120.25599;
+        childTime       114.43315;
         onStack         1;
+    }
+
+    {
+        id              13;
+        parentId        1;
+        description     "FO::forceCoeffs::execute";
+        calls           499;
+        totalTime       0.583933;
+        childTime       0;
+        onStack         0;
     }
 
     {
         id              12;
         parentId        1;
         description     "FO::forces::execute";
-        calls           4999;
-        totalTime       12.233076;
+        calls           499;
+        totalTime       0.916951;
         childTime       0;
         onStack         0;
     }
 
     {
-        id              13;
+        id              14;
+        parentId        1;
+        description     "FO::pressureTools1::execute";
+        calls           499;
+        totalTime       0.000879;
+        childTime       0;
+        onStack         0;
+    }
+
+    {
+        id              15;
         parentId        1;
         description     "FO::probes::execute";
-        calls           4999;
-        totalTime       0.29072;
+        calls           499;
+        totalTime       0.022489;
         childTime       0;
         onStack         0;
     }
@@ -72,7 +92,7 @@ profilingInfo
         parentId        1;
         description     "functionObjectList::read";
         calls           1;
-        totalTime       0.00045;
+        totalTime       0.001978;
         childTime       0;
         onStack         0;
     }
@@ -81,9 +101,9 @@ profilingInfo
         id              3;
         parentId        1;
         description     "fvMatrix::solve_U";
-        calls           5000;
-        totalTime       34.719813;
-        childTime       31.20929;
+        calls           500;
+        totalTime       12.276239;
+        childTime       11.980334;
         onStack         0;
     }
 
@@ -91,9 +111,9 @@ profilingInfo
         id              8;
         parentId        1;
         description     "fvMatrix::solve_p";
-        calls           20000;
-        totalTime       768.2075;
-        childTime       763.69338;
+        calls           2000;
+        totalTime       99.999241;
+        childTime       99.638495;
         onStack         0;
     }
 
@@ -101,8 +121,8 @@ profilingInfo
         id              5;
         parentId        4;
         description     "lduMatrix::smoother_Ux";
-        calls           5000;
-        totalTime       13.061932;
+        calls           500;
+        totalTime       5.734321;
         childTime       0;
         onStack         0;
     }
@@ -111,8 +131,8 @@ profilingInfo
         id              7;
         parentId        6;
         description     "lduMatrix::smoother_Uy";
-        calls           5000;
-        totalTime       13.085898;
+        calls           500;
+        totalTime       5.880916;
         childTime       0;
         onStack         0;
     }
@@ -121,9 +141,9 @@ profilingInfo
         id              4;
         parentId        3;
         description     "lduMatrix::solver_Ux";
-        calls           5000;
-        totalTime       15.850953;
-        childTime       13.061932;
+        calls           500;
+        totalTime       5.923364;
+        childTime       5.734321;
         onStack         0;
     }
 
@@ -131,9 +151,9 @@ profilingInfo
         id              6;
         parentId        3;
         description     "lduMatrix::solver_Uy";
-        calls           5000;
-        totalTime       15.358337;
-        childTime       13.085898;
+        calls           500;
+        totalTime       6.05697;
+        childTime       5.880916;
         onStack         0;
     }
 
@@ -141,9 +161,9 @@ profilingInfo
         id              9;
         parentId        8;
         description     "lduMatrix::solver_p";
-        calls           20000;
-        totalTime       763.69338;
-        childTime       55.337772;
+        calls           2000;
+        totalTime       99.638495;
+        childTime       9.762786;
         onStack         0;
     }
 
@@ -151,8 +171,8 @@ profilingInfo
         id              10;
         parentId        9;
         description     "lduMatrix::solver_topLevelCorr";
-        calls           502804;
-        totalTime       55.337772;
+        calls           80159;
+        totalTime       9.762786;
         childTime       0;
         onStack         0;
     }

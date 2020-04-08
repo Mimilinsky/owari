@@ -79,6 +79,46 @@ functions
         CofR                (0 0 0);
     }
 
+ forceCoeffs
+    {
+        type                forceCoeffs;
+        functionObjectLibs  ( "libforces.so" );
+        outputControl       timeStep;
+        outputInterval      1;
+        patches             ( wall );
+        pName               p;
+        UName               U;
+        rhoName             rhoInf;
+        log                 true;
+        rhoInf              1;
+        CofR                (0 0 0);
+        liftDir (0 1 0);
+        dragDir ( 1 0 0 );
+        pitchAxis ( 0 0 0 );
+        magUInf 1;
+        lRef 1;
+        Aref 1;
+    }
+
+
+    pressureTools1
+    {
+        type                pressureTools;
+        functionObjectLibs ("libutilityFunctionObjects.so");
+        region              region0;
+        enabled             yes;
+        calcTotal           no;
+        calcCoeff           yes;
+        timeStart           0.5;
+        timeEnd             0.5;
+        outputControl       outputTime;
+        outputInterval      1;
+        rhoInf              1;
+        pInf                101325;
+        UInf                (1 0 0);
+            
+    }
+
     probes
     {
         type            probes;
@@ -88,13 +128,14 @@ functions
         outputInterval  1;
         probeLocations
         (
-            ( 0.012 0 0 )
-            ( 0.05 0 0 )
+            ( 0.012 0 0.05 )
+            ( 0.05 0 0.05 )
         );
 
         fields
         (
             p
+            U
         );
     }
 );

@@ -9,7 +9,7 @@ S'No remark given'
 p5
 sS'casename'
 p6
-S'cylinder-gmsh-overset'
+S'150ms'
 p7
 sS'solver'
 p8
@@ -26,11 +26,11 @@ p12
 I0
 sS'casefullname'
 p13
-S'/home/mimi/foam/mimi-4.1/run/cylinder-gmsh-overset'
+S'/home/mimi/foam/mimi-4.1/run/owari/cylinder/gmsh/150ms'
 p14
 sS'starttime'
 p15
-S'Thu Apr  2 13:49:47 2020'
+S'Wed Apr  8 12:39:03 2020'
 p16
 sS'logfile'
 p17

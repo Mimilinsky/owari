@@ -48,3 +48,6 @@ Fri Apr  3 12:22:58 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOv
 Fri Apr  3 12:30:51 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-gmsh-overset-1ms  |  Ending 
 Fri Apr  3 12:52:10 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-gmsh-overset-1ms  |  Starting 
 Fri Apr  3 13:01:33 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/cylinder-gmsh-overset-1ms  |  Ending 
+Mon Apr  6 21:07:17 2020 by mimi in aoba :Application: pyFoamClearCase.py .  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/gmsh/1ms  |  
+Mon Apr  6 21:09:12 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/gmsh/1ms  |  Starting 
+Mon Apr  6 21:18:28 2020 by mimi in aoba :Application: pyFoamPlotRunner.py icoOversetFoam  | with cwd /home/mimi/foam/mimi-4.1/run/owari/cylinder/gmsh/1ms  |  Ending 
